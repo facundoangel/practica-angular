@@ -1,0 +1,7 @@
+<div class="row" [ngClass]="{'reminder-task' : reminder}">
+    <div [id]="id" class="title">
+        <h2 class="title-task">{{title}}</h2>
+        <div (click)="onClick($event)"><fa-icon [icon]="faTimes" class="icon-delete"></fa-icon></div>
+    </div>
+    <p class="info-task">{{description}}</p>
+</div>

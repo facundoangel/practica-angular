@@ -1,0 +1,8 @@
+
+
+<ul>
+    <li *ngFor="let item of datajson">
+        <app-list-item [title]="item.title" [description]="item.description" [reminder]="item.reminder" [id]="item.id"> </app-list-item>
+    </li>
+    
+</ul>
